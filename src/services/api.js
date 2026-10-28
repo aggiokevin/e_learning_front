@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = import.meta.env.VITE_API_URL || 'https://e-learning-git-524285343356.europe-west1.run.app';
+const API_URL = import.meta.env.VITE_API_URL || 'https://e-learning-backend.cloud.run';
 
 const api = axios.create({
   baseURL: API_URL,
